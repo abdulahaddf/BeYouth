@@ -21,7 +21,7 @@ export default function HomePage() {
           <Image
             src="/logo.jpeg"
             alt="Be-Youth Logo"
-            width={180}
+            width={420}
             height={46}
             priority
             className="logo-img"

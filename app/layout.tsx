@@ -18,45 +18,37 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://aestheticventurebd.com'),
-  title: 'Aesthetic Venture',
-  description:
-    'Commit to Serve',
-  keywords: [
-    'Aesthetic Venture',
-    'Commit to Serve',
-    'Dhaka',
-    'Bangladesh',
-  ],
-  authors: [{ name: 'Aesthetic Venture' }],
+  title: 'Be-Youth',
+  description: 'Care for Your Skin, All Day Long.',
+  keywords: ['Be-Youth', 'Skincare', 'Dhaka', 'Bangladesh'],
+  authors: [{ name: 'Be-Youth' }],
   robots: {
     index: true,
     follow: true,
   },
   icons: {
-    icon: '/files/logo2.jpeg',
-    apple: '/files/logo2.jpeg',
+    icon: '/logo.jpeg',
+    apple: '/logo.jpeg',
   },
   openGraph: {
     type: 'website',
-    siteName: 'Aesthetic Venture',
-    title: 'Aesthetic Venture',
-    description:
-      'Commit to Serve',
+    siteName: 'Be-Youth',
+    title: 'Be-Youth',
+    description: 'Care for Your Skin, All Day Long.',
     images: [
       {
-        url: '/files/logo.jpeg',
+        url: '/logo.jpeg',
         width: 800,
         height: 600,
-        alt: 'Aesthetic Venture',
+        alt: 'Be-Youth',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Aesthetic Venture',
-    description:
-      'Commit to Serve',
-    images: ['/files/logo.jpeg'],
+    title: 'Be-Youth',
+    description: 'Care for Your Skin, All Day Long.',
+    images: ['/logo.jpeg'],
   },
 };
 
